@@ -1,0 +1,126 @@
+body{
+    background: url("./images/Desktop\ -\ 4.png");
+    background-repeat: no-repeat;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: transparent;
+}
+header{
+    margin-bottom: 14rem;
+}
+
+.welcome{
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+}
+.welcome p{
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 1rem;
+}
+
+.welcome h2{
+    font-weight:600;
+}
+
+body > header > div > div.col.welcome > div > div > a{
+    border-radius: 12px;
+    color: orange;
+    font-weight: 550;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.active{
+    background: rgb(33 107 101 / 0.9);
+    border: 3px solid #216b70;
+    box-shadow: 1px 4px 10px #216b65 ;
+}
+
+.search{
+    position: relative;
+    top: 150px;
+    left: 30px;
+}
+
+.search:after {
+    content: ""; 
+    display: block; 
+    margin: 0 0;
+    width: 25%;
+    min-width: 250px;
+    padding-top: 0px; 
+    border-bottom: 2px solid rgb(128 128 128 / 0.5);
+    position: relative;
+    right: 20px;
+}
+.search input:focus{
+    outline: none;
+}
+
+.search ion-icon{
+    color: hsl(0deg 0% 50% / 49%);
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    --ionicon-stroke-width: 50px;
+    vertical-align: bottom;
+}
+
+.search input{
+    border: none;
+    color: #80808094;
+}
+
+.author-name{
+    color: #8080808f;
+    font-size: 14px;
+}
+
+
+.card{
+    min-width: 250px;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*     align-content: flex-end; */
+    background: none;
+    color: #808080b0;
+    border: none;
+    height: 50px;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.card-body{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: 3px solid orange;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: none;
+}
+
+body > main > div > div> div > div > ion-icon{
+    position:absolute;
+    color: orange;
+    bottom: 60%;
+    left: 45%;
+    font-size: 50px;
+}
+
+img.card-img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
